@@ -1,0 +1,40 @@
+{
+  "name": "chromatist",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ahacking/chromatist",
+  "authors": [
+    "Jacob Rus <me@jacobrus.com>",
+    "Andrew Hacking <ahacking@gmail.com>"
+  ],
+  "description": "Color space math, for use in the browser and node-based servers",
+  "main": "lib/chromatist.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "color",
+    "colour",
+    "RGB",
+    "sRGB",
+    "XYZ",
+    "HSL",
+    "HSV",
+    "CIECAM02",
+    "CIEXYZ"
+  ],
+  "license": "Public Domain",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bower.json",
+    "package.json",
+    "Cakefile",
+    "src",
+    "readme.md",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": ">= 1.6.0"
+  }
+}

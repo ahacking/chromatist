@@ -40,3 +40,24 @@ Finally we can convert our new color back to RGB and print it out in 8-bit hexad
     >>> hex_k = chromatist.rgb.to_hex(rgb_k)
     '#fdcc58'    // a nice bright yellow
 
+## Building and Testing Chromatist
+
+The Chromatist project is buit using [Cake](http://coffeescript.org/documentation/docs/cake.html). You can
+install Chromatist's development dependencies from inside the project root with:
+
+```
+npm install
+```
+
+Distributable versions of Chromatist can be built to the `/lib` directory by running:
+
+```
+cake build
+```
+
+To watch source files and rebuild on change, run:
+
+```
+cake watch_and_build
+```
+

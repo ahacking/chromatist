@@ -1,0 +1,35 @@
+{
+  "name": "chromatist",
+  "version": "0.1.0",
+  "author": "Jacob Rus",
+  "description": "Color space math, for use in the browser and node-based servers",
+  "contributors": [
+    {
+      "name": "Jacob Rus",
+      "email": "me@jacobrus.com"
+    },
+    {
+      "name": "Andrew Hacking",
+      "email": "ahacking@gmail.com"
+    }
+  ],
+  "scripts": {
+    "start": "cake"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahacking/chromatist"
+  },
+  "devDependencies": {
+    "coffee-script": ">= 1.4.0",
+    "underscore": ">= 1.6.0"
+  },
+  "dependencies": {
+    "underscore": ">= 1.6.0"
+  },
+  "license": "Public Domain",
+  "engines": {
+    "node": "0.8",
+    "npm": "1.1"
+  }
+}
