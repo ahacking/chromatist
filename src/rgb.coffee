@@ -49,7 +49,6 @@ ProPhoto_gamma = [
         if x_ < 16 * .001953125 then x_ / 16
         else pow(x_, 1.8) ]
 
-
 RGB_spaces_parameters =
     'sRGB':
         r: [.64, .33]
@@ -84,6 +83,8 @@ RGB_spaces_parameters =
         white: 'D50'
         gamma: 1.8
 
+rgb.RGB_spaces = []
+rgb.RGB_spaces.push(k) for k in RGB_spaces_parameters
 
 rgb.Converter = (params) ->
     # Note: assumes white point of X, Y, Z values is the same as the white
